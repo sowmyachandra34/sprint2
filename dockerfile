@@ -1,5 +1,5 @@
 FROM openjdk:11
-LABEL MAINTAINER="https://github.com/challasravs"
+LABEL MAINTAINER="https://github.com/soumyachandrac"
 LABEL APPLICATION="user login page"
 WORKDIR /usr/app
 ARG JAR_FILE=target/employee-management-webapp-0.0.1-SNAPSHOT.jar
